@@ -16,7 +16,7 @@ This is a code of the algorithm described in "MegaDepth: Learning Single-View De
 <img src="https://github.com/lixx2938/MegaDepth/blob/master/demo_img/demo_4.jpg" width="300"/> <img src="https://github.com/lixx2938/MegaDepth/blob/master/demo_img/demo_4.png" width="300"/>
 
 #### Dependencies:
-* The code was written in Pytorch 0.2 and Python 2.7, but it should be easy to adapt it to Python 3 and latest Pytorch version if needed.
+* Python 3 and latest Pytorch version if needed.
 * You might need skimage, h5py libraries installed for python before running the code.
 
 #### Single-view depth prediction on any Internet photo:
@@ -45,3 +45,6 @@ You should see an inverse depth prediction saved as demo.png from an original ph
 ```
 * If you want to run our model on arbitrary Internet photos, please download pretrained model from http://www.cs.cornell.edu/projects/megadepth/dataset/models/best_generalization_net_G.pth, which has much better generalization ability to completely unknown scenes (Note: for clarification, this model is used for more general purpose. We trained the network on top of DIW pretrained weights. It may have better performance than what was described in the paper, if you want to compare yours with our method, you might use the models: http://www.cs.cornell.edu/projects/megadepth/).
 
+
+
+![Examples of Single-View Depth Predictions on Internet Photos](http://www.cs.cornell.edu/projects/megadepth/demo6.png)
