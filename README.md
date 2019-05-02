@@ -45,3 +45,6 @@ You should see an inverse depth prediction saved as demo.png from an original ph
 ```
 * If you want to run our model on arbitrary Internet photos, please download pretrained model from http://www.cs.cornell.edu/projects/megadepth/dataset/models/best_generalization_net_G.pth, which has much better generalization ability to completely unknown scenes (Note: for clarification, this model is used for more general purpose. We trained the network on top of DIW pretrained weights. It may have better performance than what was described in the paper, if you want to compare yours with our method, you might use the models: http://www.cs.cornell.edu/projects/megadepth/).
 
+
+
+![Examples of Single-View Depth Predictions on Internet Photos](http://www.cs.cornell.edu/projects/megadepth/demo6.png)
