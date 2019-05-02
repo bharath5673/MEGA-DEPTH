@@ -47,4 +47,12 @@ You should see an inverse depth prediction saved as demo.png from an original ph
 
 
 
-![Examples of Single-View Depth Predictions on Internet Photos](http://www.cs.cornell.edu/projects/megadepth/demo6.png)
+
+
+
+
+![](Screenshot343.png)
+![](Screenshot344.png)
+
+
+## Depth maps predicted by our MegaDepth-trained CNN (blue=near, red=far)
