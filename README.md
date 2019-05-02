@@ -55,4 +55,4 @@ You should see an inverse depth prediction saved as demo.png from an original ph
 ![](Screenshot344.png)
 
 
-## Depth maps predicted by our MegaDepth-trained CNN (blue=near, red=far)
+## These depth maps r predicted by fully [ MegaDepth-trained CNN ](blue=near, red=far)
